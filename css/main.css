@@ -2,8 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dbd6d0;
   line-height: 1.5;
-  font-family: Bevan, serif;
-  border: 3px solid #595652;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -27,38 +26,30 @@ body {
 h1 {
   color: #fff;
   font-family: Bevan, serif;
-  font-size: 2.5rem;
   padding: 5px 0 0;
 }
 
 nav li {
   display: inline-block;
   list-style-type: none;
-  padding: 5px;
-  border-radius: .25em;
-  text-align: center;
-  font-size: 1.5rem;
-  background-color: #713837;
-  text-decoration: none;
 }
 
-nav li:hover {
-  color: #f33;
+nav a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: .25em;
+  text-align: center;
+  background-color: #713837;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #f33;
   margin: 0;
   list-style-type: none;
 }
 
 nav ul {
   margin-top: 0;
-}
-
-.btn {
-  padding: 5px;
-  background-color: #713837;
-  border-radius: .25em;
-}
-
-.navbar {
-  color: #fff;
-  text-decoration: none;
 }
