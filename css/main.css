@@ -38,11 +38,11 @@ nav li {
   border-radius: .25em;
   text-align: center;
   font-size: 1.5rem;
-  background-color: #723836;
+  background-color: #713837;
 }
 
 nav li:hover {
-  background-color: #ff332a;
+  background-color: #ff3;
 }
 
 nav ul {
