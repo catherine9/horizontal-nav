@@ -34,7 +34,7 @@ li {
 nav li {
   display: inline-block;
   list-style-type: none;
-  padding: 10px;
+  padding: 5px;
   border-radius: .25em;
   text-align: center;
   font-size: 1.5rem;
